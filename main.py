@@ -18,7 +18,7 @@ for i in range(len(escolha)):
     letrasCensuradas[i] = '_'
 
 for j in range(contador):
-    print(f'''Você tem {contador} tentativas para acertar qual eh essa palavra: 
+    print(*f'''Você tem {contador} tentativas para acertar qual eh essa palavra: 
         {letrasCensuradas}.''')
     letra = input('Digite uma letra: ').lower()
     if letra in letras:
